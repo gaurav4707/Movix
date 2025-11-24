@@ -198,20 +198,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ER Diagram Section */}
-      <section className="py-16 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">ER Diagram</h2>
-        <Card className="bg-card border-border border-dashed">
-          <CardContent className="flex flex-col items-center justify-center py-20 text-center">
-            <GitBranch className="w-16 h-16 text-muted-foreground mb-4" />
-            <p className="text-muted-foreground mb-4">Upload your ER diagram image here</p>
-            <Button variant="outline" className="border-primary/50">
-              Choose File
-            </Button>
-          </CardContent>
-        </Card>
-      </section>
-
       {/* Schema Section */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">Database Schema</h2>
